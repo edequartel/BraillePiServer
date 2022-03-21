@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1582024049 source:/home/pi/Documents/programs/utilities/audiocentre.cpp
+	"audiocentre.h"
+	"playaudio.h"
+
+1572876806 /home/pi/Documents/programs/utilities/audiocentre.h
+	"playaudio.h"
+	"string"
+	"string.h"
+	<iostream>
+	<boost/algorithm/string.hpp>
+	<boost/array.hpp>
+	<boost/filesystem.hpp>
+	"codepoint.h"
+	"stringlist.h"
+
+1572884148 /home/pi/Documents/programs/utilities/playaudio.h
+	<stddef.h>
+	<iostream>
+	"bass.h"
+	<unistd.h>
+	"brlapi.h"
+	<string.h>
+	"ncurses.h"
+	"sharedmemory.h"
+
+1572876806 /home/pi/Documents/programs/utilities/bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1572876807 /home/pi/Documents/programs/utilities/sharedmemory.h
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<unistd.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+
+1572876807 /home/pi/Documents/programs/utilities/codepoint.h
+	"utf8.h"
+	<string>
+	<sstream>
+	<algorithm>
+
+1572878233 /home/pi/Documents/programs/utilities/utf8.h
+	"utf8/checked.h"
+	"utf8/unchecked.h"
+
+1572878256 /home/pi/Documents/programs/utilities/utf8/checked.h
+	"core.h"
+	<stdexcept>
+
+1572878257 /home/pi/Documents/programs/utilities/utf8/core.h
+	<iterator>
+
+1572878256 /home/pi/Documents/programs/utilities/utf8/unchecked.h
+	"core.h"
+
+1572876807 /home/pi/Documents/programs/utilities/stringlist.h
+	<string>
+	"codepoint.h"
+	<sstream>
+	<iostream>
+
+1572876807 source:/home/pi/Documents/programs/utilities/codepoint.cpp
+	"codepoint.h"
+
+1572876807 source:/home/pi/Documents/programs/utilities/playaudio.cpp
+	"playaudio.h"
+
+1572876807 source:/home/pi/Documents/programs/utilities/stringlist.cpp
+	"stringlist.h"
+
+1578991786 source:/home/pi/Documents/programs/braillepiserver/main.cpp
+	<iostream>
+	"audiocentre.h"
+
